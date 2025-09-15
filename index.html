@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maruthi - Quantum Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Quantum Loading Portal -->
+    <div id="quantum-loader" class="quantum-loader">
+        <div class="quantum-core">
+            <div class="quantum-rings">
+                <div class="quantum-ring"></div>
+                <div class="quantum-ring"></div>
+                <div class="quantum-ring"></div>
+            </div>
+            <div class="quantum-particles"></div>
+        </div>
+        <div class="quantum-text">
+            <h2>Initializing Quantum Portfolio...</h2>
+            <div class="quantum-progress">
+                <div class="quantum-progress-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Holographic Navigation -->
+    <nav class="holo-nav" id="holo-nav">
+        <div class="holo-brand">
+            <div class="holo-logo">
+                <span class="logo-core">M</span>
+                <div class="logo-orbit"></div>
+            </div>
+            <span class="brand-text">MARUTHI</span>
+        </div>
+        <div class="holo-menu" id="holo-menu">
+            <a href="#home" class="holo-link" data-section="home">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+                <div class="holo-glow"></div>
+            </a>
+            <a href="#about" class="holo-link" data-section="about">
+                <i class="fas fa-user-astronaut"></i>
+                <span>About</span>
+                <div class="holo-glow"></div>
+            </a>
+            <a href="#skills" class="holo-link" data-section="skills">
+                <i class="fas fa-satellite"></i>
+                <span>Skills Galaxy</span>
+                <div class="holo-glow"></div>
+            </a>
+            <a href="#projects" class="holo-link" data-section="projects">
+                <i class="fas fa-rocket"></i>
+                <span>Projects</span>
+                <div class="holo-glow"></div>
+            </a>
+            <a href="#timeline" class="holo-link" data-section="timeline">
+                <i class="fas fa-route"></i>
+                <span>Space Journey</span>
+                <div class="holo-glow"></div>
+            </a>
+            <a href="#contact" class="holo-link" data-section="contact">
+                <i class="fas fa-satellite-dish"></i>
+                <span>Mission Control</span>
+                <div class="holo-glow"></div>
+            </a>
+        </div>
+        <div class="holo-burger" id="holo-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Orbital Mini Navigation -->
+    <div class="orbital-system" id="orbital-system">
+        <div class="solar-system">
+            <div class="orbit-center">
+                <div class="quantum-core-mini"></div>
+            </div>
+            <div class="planet-orbit orbit-1">
+                <div class="planet" data-section="home" data-planet="home">
+                    <i class="fas fa-home"></i>
+                </div>
+            </div>
+            <div class="planet-orbit orbit-2">
+                <div class="planet" data-section="about" data-planet="about">
+                    <i class="fas fa-user-astronaut"></i>
+                </div>
+            </div>
+            <div class="planet-orbit orbit-3">
+                <div class="planet" data-section="skills" data-planet="skills">
+                    <i class="fas fa-satellite"></i>
+                </div>
+            </div>
+            <div class="planet-orbit orbit-4">
+                <div class="planet" data-section="projects" data-planet="projects">
+                    <i class="fas fa-rocket"></i>
+                </div>
+            </div>
+            <div class="planet-orbit orbit-5">
+                <div class="planet" data-section="timeline" data-planet="timeline">
+                    <i class="fas fa-route"></i>
+                </div>
+            </div>
+            <div class="planet-orbit orbit-6">
+                <div class="planet" data-section="contact" data-planet="contact">
+                    <i class="fas fa-satellite-dish"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Particle Universe -->
+    <canvas id="particle-universe"></canvas>
+    <canvas id="neural-network"></canvas>
+    
+    <!-- Mouse Quantum Trail -->
+    <div id="quantum-trail"></div>
+
+    <!-- Main Cosmic Container -->
+    <main class="cosmic-container">
+        <!-- Hero Dimension -->
+        <section id="home" class="hero-dimension">
+            <div class="dimension-bg"></div>
+            <div class="hero-matrix">
+                <div class="avatar-quantum-field">
+                    <div class="quantum-avatar" id="quantum-avatar">
+                        <div class="avatar-core">
+                            <span class="avatar-initial">M</span>
+                        </div>
+                        <div class="quantum-field">
+                            <div class="field-layer layer-1"></div>
+                            <div class="field-layer layer-2"></div>
+                            <div class="field-layer layer-3"></div>
+                        </div>
+                        <div class="data-streams">
+                            <div class="data-stream stream-1"></div>
+                            <div class="data-stream stream-2"></div>
+                            <div class="data-stream stream-3"></div>
+                            <div class="data-stream stream-4"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-data-panels">
+                    <div class="data-panel panel-main">
+                        <h1 class="quantum-name" id="quantum-name">
+                            <span class="name-particles">MARUTHI</span>
+                        </h1>
+                        <p class="quantum-role">3rd Year B.Tech Computer Science Student</p>
+                        <p class="quantum-tagline">Architecting tomorrow's digital experiences through innovation, creativity, and cutting-edge technology</p>
+                        <div class="quantum-stats">
+                            <div class="stat-quantum">
+                                <span class="stat-value" data-count="15">0</span>
+                                <span class="stat-unit">Projects</span>
+                                <div class="stat-glow"></div>
+                            </div>
+                            <div class="stat-quantum">
+                                <span class="stat-value" data-count="25000">0</span>
+                                <span class="stat-unit">Lines of Code</span>
+                                <div class="stat-glow"></div>
+                            </div>
+                            <div class="stat-quantum">
+                                <span class="stat-value" data-count="11">0</span>
+                                <span class="stat-unit">Technologies</span>
+                                <div class="stat-glow"></div>
+                            </div>
+                            <div class="stat-quantum">
+                                <span class="stat-value" data-count="3">0</span>
+                                <span class="stat-unit">Years Learning</span>
+                                <div class="stat-glow"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floating-panels">
+                        <div class="float-panel panel-1">
+                            <div class="panel-content">
+                                <h3>Innovation Score</h3>
+                                <div class="score-display">95%</div>
+                            </div>
+                        </div>
+                        <div class="float-panel panel-2">
+                            <div class="panel-content">
+                                <h3>GitHub Commits</h3>
+                                <div class="score-display">300+</div>
+                            </div>
+                        </div>
+                        <div class="float-panel panel-3">
+                            <div class="panel-content">
+                                <h3>Study Hours</h3>
+                                <div class="score-display">2000+</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="quantum-scroll-portal">
+                <div class="scroll-vortex"></div>
+                <span class="scroll-hint">Enter the Universe</span>
+            </div>
+        </section>
+
+        <!-- About Dimension -->
+        <section id="about" class="dimension about-dimension">
+            <div class="dimension-bg about-bg"></div>
+            <div class="container">
+                <h2 class="dimension-title" data-reveal>About the Architect</h2>
+                <div class="about-cosmos">
+                    <div class="about-narrative">
+                        <div class="narrative-panel" data-reveal>
+                            <h3 class="panel-title">The Journey</h3>
+                            <p class="narrative-text">I'm a dedicated B.Tech Computer Science student with a deep passion for technology and software development. Currently in my third year, I enjoy exploring new programming languages, building web applications, and learning about emerging technologies.</p>
+                            <p class="narrative-text">My goal is to create impactful software solutions that solve real-world problems and contribute to the advancement of technology.</p>
+                            <div class="journey-stats">
+                                <div class="journey-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>India</span>
+                                </div>
+                                <div class="journey-item">
+                                    <i class="fas fa-briefcase"></i>
+                                    <span>Ready to revolutionize your next project</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="achievements-grid">
+                            <div class="achievement-orb" data-reveal>
+                                <div class="orb-core">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <h3 class="orb-value" data-count="25000">0</h3>
+                                <p class="orb-label">Lines of Code</p>
+                                <div class="orb-particles"></div>
+                            </div>
+                            <div class="achievement-orb" data-reveal>
+                                <div class="orb-core">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <h3 class="orb-value" data-count="300">0</h3>
+                                <p class="orb-label">GitHub Commits</p>
+                                <div class="orb-particles"></div>
+                            </div>
+                            <div class="achievement-orb" data-reveal>
+                                <div class="orb-core">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <h3 class="orb-value" data-count="2000">0</h3>
+                                <p class="orb-label">Study Hours</p>
+                                <div class="orb-particles"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Galaxy -->
+        <section id="skills" class="dimension skills-dimension">
+            <div class="dimension-bg skills-bg"></div>
+            <div class="container">
+                <h2 class="dimension-title" data-reveal>Skills Galaxy</h2>
+                <div class="galaxy-container">
+                    <div class="galaxy-center">
+                        <div class="galaxy-core">
+                            <span>CORE</span>
+                        </div>
+                    </div>
+                    <div class="skill-constellation frontend-constellation">
+                        <h3 class="constellation-title">Frontend Sector</h3>
+                        <div class="skill-planet html-planet" data-skill="HTML" data-level="90">
+                            <div class="planet-core">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="planet-rings"></div>
+                            <div class="skill-info-popup">
+                                <h4>HTML</h4>
+                                <p>Semantic markup and accessibility expert</p>
+                                <div class="skill-level-bar">
+                                    <div class="level-fill" style="--level: 90%"></div>
+                                </div>
+                                <span class="experience">2 years experience</span>
+                            </div>
+                        </div>
+                        <div class="skill-planet css-planet" data-skill="CSS" data-level="85">
+                            <div class="planet-core">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="planet-rings"></div>
+                            <div class="skill-info-popup">
+                                <h4>CSS</h4>
+                                <p>Advanced animations and responsive design</p>
+                                <div class="skill-level-bar">
+                                    <div class="level-fill" style="--level: 85%"></div>
+                                </div>
+                                <span class="experience">2 years experience</span>
+                            </div>
+                        </div>
+                        <div class="skill-planet js-planet" data-skill="JavaScript" data-level="80">
+                            <div class="planet-core">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <div class="planet-rings"></div>
+                            <div class="skill-info-popup">
+                                <h4>JavaScript</h4>
+                                <p>Modern ES6+ and dynamic interactions</p>
+                                <div class="skill-level-bar">
+                                    <div class="level-fill" style="--level: 80%"></div>
+                                </div>
+                                <span class="experience">1.5 years experience</span>
+                            </div>
+                        </div>
+                        <div class="skill-planet bootstrap-planet" data-skill="Bootstrap" data-level="85">
+                            <div class="planet-core">
+                                <i class="fab fa-bootstrap"></i>
+                            </div>
+                            <div class="planet-rings"></div>
+                            <div class="skill-info-popup">
+                                <h4>Bootstrap</h4>
+                                <p>Rapid responsive UI development</p>
+                                <div class="skill-level-bar">
+                                    <div class="level-fill" style="--level: 85%"></div>
+                                </div>
+                                <span class="experience">1 year experience</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-constellation backend-constellation">
+                        <h3 class="constellation-title">Backend Sector</h3>
+                        <div class="skill-planet nodejs-planet" data-skill="Node.js" data-level="75">
+                            <div class="planet-core">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <div class="planet-rings"></div>
+                            <div class="skill-info-popup">
+                                <h4>Node.js</h4>
+                                <p>Server-side JavaScript and APIs</p>
+                                <div class="skill-level-bar">
+                                    <div class="level-fill" style="--level: 75%"></div>
+                                </div>
+                                <span class="experience">1 year experience</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-constellation languages-constellation">
+                        <h3 class="constellation-title">Programming Languages</h3>
+                        <div class="skill-planet c-planet" data-skill="C Language" data-level="90">
+                            <div class="planet-core">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="planet-rings"></div>
+                            <div class="skill-info-popup">
+                                <h4>C Language</h4>
+                                <p>System programming and algorithms</p>
+                                <div class="skill-level-bar">
+                                    <div class="level-fill" style="--level: 90%"></div>
+                                </div>
+                                <span class="experience">3 years experience</span>
+                            </div>
+                        </div>
+                        <div class="skill-planet java-planet" data-skill="Java" data-level="85">
+                            <div class="planet-core">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <div class="planet-rings"></div>
+                            <div class="skill-info-popup">
+                                <h4>Java</h4>
+                                <p>Object-oriented programming master</p>
+                                <div class="skill-level-bar">
+                                    <div class="level-fill" style="--level: 85%"></div>
+                                </div>
+                                <span class="experience">2 years experience</span>
+                            </div>
+                        </div>
+                        <div class="skill-planet python-planet" data-skill="Python" data-level="80">
+                            <div class="planet-core">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="planet-rings"></div>
+                            <div class="skill-info-popup">
+                                <h4>Python</h4>
+                                <p>Data science and automation</p>
+                                <div class="skill-level-bar">
+                                    <div class="level-fill" style="--level: 80%"></div>
+                                </div>
+                                <span class="experience">1.5 years experience</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-constellation tools-constellation">
+                        <h3 class="constellation-title">Tools & Cloud</h3>
+                        <div class="skill-planet git-planet" data-skill="Git" data-level="85">
+                            <div class="planet-core">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <div class="planet-rings"></div>
+                            <div class="skill-info-popup">
+                                <h4>Git</h4>
+                                <p>Version control and collaboration</p>
+                                <div class="skill-level-bar">
+                                    <div class="level-fill" style="--level: 85%"></div>
+                                </div>
+                                <span class="experience">2 years experience</span>
+                            </div>
+                        </div>
+                        <div class="skill-planet github-planet" data-skill="GitHub" data-level="85">
+                            <div class="planet-core">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="planet-rings"></div>
+                            <div class="skill-info-popup">
+                                <h4>GitHub</h4>
+                                <p>Open source contributions</p>
+                                <div class="skill-level-bar">
+                                    <div class="level-fill" style="--level: 85%"></div>
+                                </div>
+                                <span class="experience">2 years experience</span>
+                            </div>
+                        </div>
+                        <div class="skill-planet aws-planet" data-skill="AWS" data-level="70">
+                            <div class="planet-core">
+                                <i class="fab fa-aws"></i>
+                            </div>
+                            <div class="planet-rings"></div>
+                            <div class="skill-info-popup">
+                                <h4>AWS</h4>
+                                <p>Cloud architecture and deployment</p>
+                                <div class="skill-level-bar">
+                                    <div class="level-fill" style="--level: 70%"></div>
+                                </div>
+                                <span class="experience">6 months experience</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Dimension -->
+        <section id="projects" class="dimension projects-dimension">
+            <div class="dimension-bg projects-bg"></div>
+            <div class="container">
+                <h2 class="dimension-title" data-reveal>Project Universe</h2>
+                <div class="projects-space">
+                    <div class="project-station featured-station" data-category="Web Innovation" data-reveal>
+                        <div class="station-hull">
+                            <div class="station-header">
+                                <h3 class="project-title">Quantum Portfolio Engine</h3>
+                                <div class="project-actions">
+                                    <a href="https://github.com/maruthi12/quantum-portfolio" target="_blank" class="action-btn">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="#" class="action-btn">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="project-description">Revolutionary personal portfolio with advanced 3D interactions and particle physics</p>
+                            <div class="project-details">
+                                <p class="project-long-desc">A groundbreaking portfolio website that pushes the boundaries of web technology. Features include WebGL particle systems, 3D navigation, and immersive user experiences.</p>
+                            </div>
+                            <div class="tech-constellation">
+                                <span class="tech-star">HTML</span>
+                                <span class="tech-star">CSS</span>
+                                <span class="tech-star">JavaScript</span>
+                                <span class="tech-star">WebGL</span>
+                                <span class="tech-star">Three.js</span>
+                            </div>
+                            <div class="project-badge featured-badge">Advanced</div>
+                        </div>
+                        <div class="station-glow"></div>
+                    </div>
+
+                    <div class="project-station" data-category="AI Integration" data-reveal>
+                        <div class="station-hull">
+                            <div class="station-header">
+                                <h3 class="project-title">Neural E-Commerce Platform</h3>
+                                <div class="project-actions">
+                                    <a href="https://github.com/maruthi12/neural-ecommerce" target="_blank" class="action-btn">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="#" class="action-btn">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="project-description">AI-powered online shopping experience with predictive analytics and dynamic UX</p>
+                            <div class="project-details">
+                                <p class="project-long-desc">An intelligent e-commerce platform that adapts to user behavior in real-time. Features machine learning recommendations, dynamic UI adjustments, and advanced analytics.</p>
+                            </div>
+                            <div class="tech-constellation">
+                                <span class="tech-star">React</span>
+                                <span class="tech-star">Node.js</span>
+                                <span class="tech-star">Python</span>
+                                <span class="tech-star">TensorFlow</span>
+                                <span class="tech-star">MongoDB</span>
+                            </div>
+                            <div class="project-badge expert-badge">Expert</div>
+                        </div>
+                        <div class="station-glow"></div>
+                    </div>
+
+                    <div class="project-station" data-category="UX Innovation" data-reveal>
+                        <div class="station-hull">
+                            <div class="station-header">
+                                <h3 class="project-title">Cosmic Task Manager</h3>
+                                <div class="project-actions">
+                                    <a href="https://github.com/maruthi12/cosmic-tasks" target="_blank" class="action-btn">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="#" class="action-btn">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="project-description">Space-themed productivity app with immersive 3D interface and gamification</p>
+                            <div class="project-details">
+                                <p class="project-long-desc">A revolutionary task management application that transforms productivity into an engaging space adventure. Complete tasks to explore new worlds and unlock achievements.</p>
+                            </div>
+                            <div class="tech-constellation">
+                                <span class="tech-star">Vue.js</span>
+                                <span class="tech-star">Three.js</span>
+                                <span class="tech-star">Node.js</span>
+                                <span class="tech-star">WebGL</span>
+                            </div>
+                            <div class="project-badge advanced-badge">Advanced</div>
+                        </div>
+                        <div class="station-glow"></div>
+                    </div>
+
+                    <div class="project-station" data-category="Data Visualization" data-reveal>
+                        <div class="station-hull">
+                            <div class="station-header">
+                                <h3 class="project-title">Atmospheric Weather Engine</h3>
+                                <div class="project-actions">
+                                    <a href="https://github.com/maruthi12/atmospheric-weather" target="_blank" class="action-btn">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="#" class="action-btn">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="project-description">Real-time weather visualization with stunning 3D atmospheric effects</p>
+                            <div class="project-details">
+                                <p class="project-long-desc">An innovative weather application that doesn't just show data - it recreates atmospheric conditions in real-time 3D. Experience weather like never before.</p>
+                            </div>
+                            <div class="tech-constellation">
+                                <span class="tech-star">JavaScript</span>
+                                <span class="tech-star">WebGL</span>
+                                <span class="tech-star">APIs</span>
+                                <span class="tech-star">Particle Systems</span>
+                            </div>
+                            <div class="project-badge intermediate-badge">Intermediate</div>
+                        </div>
+                        <div class="station-glow"></div>
+                    </div>
+
+                    <div class="project-station" data-category="Enterprise Software" data-reveal>
+                        <div class="station-hull">
+                            <div class="station-header">
+                                <h3 class="project-title">Holographic Student System</h3>
+                                <div class="project-actions">
+                                    <a href="https://github.com/maruthi12/holographic-students" target="_blank" class="action-btn">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="#" class="action-btn">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="project-description">Futuristic student management with AR-inspired interfaces and data visualization</p>
+                            <div class="project-details">
+                                <p class="project-long-desc">A next-generation student management system that presents data through holographic-style interfaces, making complex information beautiful and accessible.</p>
+                            </div>
+                            <div class="tech-constellation">
+                                <span class="tech-star">Java</span>
+                                <span class="tech-star">JavaFX</span>
+                                <span class="tech-star">Python</span>
+                                <span class="tech-star">Data Viz</span>
+                            </div>
+                            <div class="project-badge intermediate-badge">Intermediate</div>
+                        </div>
+                        <div class="station-glow"></div>
+                    </div>
+
+                    <div class="project-station" data-category="Cloud Architecture" data-reveal>
+                        <div class="station-hull">
+                            <div class="station-header">
+                                <h3 class="project-title">Stellar Cloud Infrastructure</h3>
+                                <div class="project-actions">
+                                    <a href="https://github.com/maruthi12/stellar-cloud" target="_blank" class="action-btn">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="#" class="action-btn">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="project-description">Automated cloud deployment system with intelligent scaling and monitoring</p>
+                            <div class="project-details">
+                                <p class="project-long-desc">A sophisticated cloud infrastructure management system that automates deployment, scaling, and monitoring with intelligent decision-making capabilities.</p>
+                            </div>
+                            <div class="tech-constellation">
+                                <span class="tech-star">AWS</span>
+                                <span class="tech-star">Docker</span>
+                                <span class="tech-star">Python</span>
+                                <span class="tech-star">Terraform</span>
+                            </div>
+                            <div class="project-badge expert-badge">Expert</div>
+                        </div>
+                        <div class="station-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timeline Dimension -->
+        <section id="timeline" class="dimension timeline-dimension">
+            <div class="dimension-bg timeline-bg"></div>
+            <div class="container">
+                <h2 class="dimension-title" data-reveal>Space-Time Journey</h2>
+                <div class="spacetime-corridor">
+                    <div class="time-ship" id="time-ship">
+                        <div class="ship-body">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="ship-trail"></div>
+                    </div>
+                    
+                    <div class="cosmic-timeline">
+                        <div class="timeline-station station-2023" data-year="2023" data-reveal>
+                            <div class="station-portal">
+                                <div class="portal-ring"></div>
+                                <div class="station-icon">🚀</div>
+                            </div>
+                            <div class="station-data">
+                                <h3 class="station-title">The Genesis</h3>
+                                <p class="station-subtitle">Journey Begins</p>
+                                <p class="station-description">Embarked on the Computer Science odyssey, discovering the infinite possibilities of code and creativity. First contact with programming languages and web technologies.</p>
+                                <div class="achievements-array">
+                                    <span class="achievement-chip">Mastered C fundamentals</span>
+                                    <span class="achievement-chip">Built first interactive website</span>
+                                    <span class="achievement-chip">Discovered passion for UI/UX</span>
+                                    <span class="achievement-chip">Joined developer communities</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-station station-2024" data-year="2024" data-reveal>
+                            <div class="station-portal">
+                                <div class="portal-ring"></div>
+                                <div class="station-icon">🌟</div>
+                            </div>
+                            <div class="station-data">
+                                <h3 class="station-title">The Evolution</h3>
+                                <p class="station-subtitle">Skills Multiply</p>
+                                <p class="station-description">Expanded into the full-stack universe, mastering both front-end artistry and back-end architecture. Created multiple projects that pushed creative boundaries.</p>
+                                <div class="achievements-array">
+                                    <span class="achievement-chip">Full-stack mastery</span>
+                                    <span class="achievement-chip">Advanced JavaScript</span>
+                                    <span class="achievement-chip">10+ creative projects</span>
+                                    <span class="achievement-chip">Open source contributions</span>
+                                    <span class="achievement-chip">Design thinking</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-station station-2025" data-year="2025" data-reveal>
+                            <div class="station-portal">
+                                <div class="portal-ring"></div>
+                                <div class="station-icon">🌌</div>
+                            </div>
+                            <div class="station-data">
+                                <h3 class="station-title">The Innovation</h3>
+                                <p class="station-subtitle">Breaking Boundaries</p>
+                                <p class="station-description">Diving deep into cutting-edge technologies, cloud computing, and AI integration. Building solutions that merge technical excellence with creative vision.</p>
+                                <div class="achievements-array">
+                                    <span class="achievement-chip">Cloud architecture</span>
+                                    <span class="achievement-chip">AI integration</span>
+                                    <span class="achievement-chip">Advanced 3D web</span>
+                                    <span class="achievement-chip">Industry recognition</span>
+                                    <span class="achievement-chip">Mentoring others</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-station station-future" data-year="Future" data-reveal>
+                            <div class="station-portal">
+                                <div class="portal-ring"></div>
+                                <div class="station-icon">✨</div>
+                            </div>
+                            <div class="station-data">
+                                <h3 class="station-title">The Revolution</h3>
+                                <p class="station-subtitle">Shaping Tomorrow</p>
+                                <p class="station-description">Ready to lead the next wave of digital innovation, creating technologies that don't just solve problems but inspire new possibilities.</p>
+                                <div class="achievements-array">
+                                    <span class="achievement-chip">Tech leadership</span>
+                                    <span class="achievement-chip">Industry disruption</span>
+                                    <span class="achievement-chip">Global impact</span>
+                                    <span class="achievement-chip">Innovation labs</span>
+                                    <span class="achievement-chip">Next-gen solutions</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Mission Control -->
+        <section id="contact" class="dimension contact-dimension">
+            <div class="dimension-bg contact-bg"></div>
+            <div class="container">
+                <h2 class="dimension-title" data-reveal>Mission Control</h2>
+                <div class="mission-control-center">
+                    <div class="control-panels">
+                        <div class="communication-array" data-reveal>
+                            <h3 class="panel-title">Communication Channels</h3>
+                            <div class="comm-channel">
+                                <div class="channel-icon">
+                                    <i class="fas fa-satellite-dish"></i>
+                                </div>
+                                <div class="channel-info">
+                                    <h4>Primary Frequency</h4>
+                                    <a href="mailto:marumaruthi93463@gmail.com">marumaruthi93463@gmail.com</a>
+                                </div>
+                                <div class="signal-strength">
+                                    <div class="signal-bar"></div>
+                                    <div class="signal-bar"></div>
+                                    <div class="signal-bar"></div>
+                                    <div class="signal-bar active"></div>
+                                    <div class="signal-bar active"></div>
+                                </div>
+                            </div>
+                            <div class="comm-channel">
+                                <div class="channel-icon">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <div class="channel-info">
+                                    <h4>Code Repository</h4>
+                                    <a href="https://github.com/maruthi12" target="_blank">github.com/maruthi12</a>
+                                </div>
+                                <div class="signal-strength">
+                                    <div class="signal-bar"></div>
+                                    <div class="signal-bar active"></div>
+                                    <div class="signal-bar active"></div>
+                                    <div class="signal-bar active"></div>
+                                    <div class="signal-bar active"></div>
+                                </div>
+                            </div>
+                            <div class="comm-channel">
+                                <div class="channel-icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </div>
+                                <div class="channel-info">
+                                    <h4>Professional Network</h4>
+                                    <a href="https://linkedin.com/in/maruthi-cs-student" target="_blank">linkedin.com/in/maruthi-cs-student</a>
+                                </div>
+                                <div class="signal-strength">
+                                    <div class="signal-bar active"></div>
+                                    <div class="signal-bar active"></div>
+                                    <div class="signal-bar active"></div>
+                                    <div class="signal-bar active"></div>
+                                    <div class="signal-bar"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mission-terminal" data-reveal>
+                            <div class="terminal-header">
+                                <div class="terminal-controls">
+                                    <span class="control-dot red"></span>
+                                    <span class="control-dot yellow"></span>
+                                    <span class="control-dot green"></span>
+                                </div>
+                                <h3 class="terminal-title">Launch Communication Sequence</h3>
+                            </div>
+                            <form class="mission-form" id="mission-form">
+                                <div class="form-field">
+                                    <label for="agent-name">Agent Identification</label>
+                                    <input type="text" id="agent-name" name="name" class="form-control" placeholder="Your name..." required>
+                                    <div class="field-scan"></div>
+                                </div>
+                                <div class="form-field">
+                                    <label for="comm-frequency">Communication Frequency</label>
+                                    <input type="email" id="comm-frequency" name="email" class="form-control" placeholder="your.email@domain.com" required>
+                                    <div class="field-scan"></div>
+                                </div>
+                                <div class="form-field">
+                                    <label for="mission-briefing">Mission Briefing</label>
+                                    <textarea id="mission-briefing" name="message" class="form-control" rows="5" placeholder="Describe your project or collaboration idea..." required></textarea>
+                                    <div class="field-scan"></div>
+                                </div>
+                                <button type="submit" class="launch-btn">
+                                    <span class="btn-text">LAUNCH TRANSMISSION</span>
+                                    <div class="btn-particles"></div>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    
+                    <div class="radar-system">
+                        <div class="radar-screen">
+                            <div class="radar-sweep"></div>
+                            <div class="radar-grid"></div>
+                            <div class="radar-blip blip-1"></div>
+                            <div class="radar-blip blip-2"></div>
+                            <div class="radar-blip blip-3"></div>
+                        </div>
+                        <div class="system-status">
+                            <div class="status-item">
+                                <span class="status-label">System Status:</span>
+                                <span class="status-value online">ONLINE</span>
+                            </div>
+                            <div class="status-item">
+                                <span class="status-label">Response Time:</span>
+                                <span class="status-value">< 24 Hours</span>
+                            </div>
+                            <div class="status-item">
+                                <span class="status-label">Availability:</span>
+                                <span class="status-value available">READY FOR MISSION</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="cosmic-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>&copy; 2025 Maruthi. Crafted with quantum creativity and stellar precision.</p>
+                    <p>Ready to revolutionize your next digital experience.</p>
+                </div>
+                <div class="cosmic-links">
+                    <a href="mailto:marumaruthi93463@gmail.com" class="cosmic-link" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://github.com/maruthi12" target="_blank" class="cosmic-link" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/maruthi-cs-student" target="_blank" class="cosmic-link" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
